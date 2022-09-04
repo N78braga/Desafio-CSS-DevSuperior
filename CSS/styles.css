@@ -88,6 +88,9 @@
     height: 30px;
     left: 955px;
     top: 30px;
+display: flex;
+align-items: center;
+
     background: url(image.png);
 }
 
