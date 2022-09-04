@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root {
+    --main-color: #F03C42;
+    --second-color: #222374;
+    --color-font-header: #fff;
+    --color-form-card: #CCCCCC;
+    --color-text: #000000;
+
+}
+
+.body-main {
+    position: relative;
+    width: 1200px;
+    height: 1660px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--color-font-header);
+}
+
+.main-selection {
+    position: absolute;
+    margin: 40px;
+    width: 1200px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--main-color);
+}
+
+
+.header-initial {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-header {
+
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 120px;
+    top: 120px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    display: flex;
+    align-items: center;
+    color: var(--color-font-header);
+}
+
+.initial-header {
+    position: absolute;
+    width: 99px;
+    height: 25px;
+    left: 120px;
+    top: 38px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: var(--color-font-header);
+
+    display: flex;
+    align-items: center;
+}
+
+.img-header {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 955px;
+    top: 30px;
+    background: url(image.png);
+}
+
+.p-header {
+    position: absolute;
+    width: 85px;
+    height: 19px;
+    left: 995px;
+    top: 41px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-font-header);
+
+    display: flex;
+    align-items: center;
+}
+
+.second-body {
+    position: absolute;
+    width: 1200px;
+    height: 418px;
+    left: 40px;
+    top: 140px;
+
+    background: #222374;
+}
+
+.second-body-h1 {
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 120px;
+    top: 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+
+    display: flex;
+    align-items: center;
+    color: var(--color-font-header);
+}
+
+.card button {
+    position: absolute;
+    width: 960px;
+    height: 127px;
+    left: 120px;
+    top: 102px;
+    color: var(--color-form-card);
+    border-radius: 8px;
+}
+
+.title-card {
+    position: absolute;
+    width: 142px;
+    height: 27px;
+    left: 50px;
+    top: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.text-card {
+    position: absolute;
+    width: 920px;
+    height: 40px;
+    left: 20px;
+    top: px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.card1 button {
+    position: absolute;
+    width: 960px;
+    height: 127px;
+    left: 120px;
+    top: 250px;
+
+    color: var(--color-form-card);
+    border-radius: 8px;
+}
+
+.third-body {
+    position: absolute;
+    width: 1200px;
+    height: 880px;
+    left: 0px;
+    top: 518px;
+    color: var(--color-font-header);
+}
+
+.third-body-h1 {
+
+    position: absolute;
+    width: 204px;
+    height: 44px;
+    left: 155px;
+    top: 60px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: var(--main-color);
+}
+
+.third-card {
+    position: absolute;
+    width: 960px;
+    height: 106px;
+    left: 155px;
+    top: 120px;
+
+    background: #222374;
+    border-radius: 8px;
+}
+
+.title-card-third {
+    position: absolute;
+    width: 984px;
+    height: 27px;
+    left: 40px;
+    top: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: var(--color-font-header)
+}
+
+pre {
+    position: absolute;
+    width: 663px;
+    height: 19px;
+    left: 40px;
+    top: 67px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: var(--color-form-card);
+}
+
+.third-card1 {
+    position: absolute;
+    width: 960px;
+    height: 106px;
+    left: 155px;
+    top: 240px;
+
+    background: #222374;
+    border-radius: 8px;
+}
+
+.third-card2 {
+    position: absolute;
+    width: 960px;
+    height: 106px;
+    left: 155px;
+    top: 360px;
+
+    background: #222374;
+    border-radius: 8px;
+}
+
+.third-card3 {
+    position: absolute;
+    width: 960px;
+    height: 106px;
+    left: 155px;
+    top: 480px;
+
+    background: #222374;
+    border-radius: 8px;
+}
+
+.third-card4 {
+    position: absolute;
+    width: 960px;
+    height: 106px;
+    left: 155px;
+    top: 600px;
+
+    background: #222374;
+    border-radius: 8px;
+}
+
+.third-card5 {
+    position: absolute;
+    width: 960px;
+    height: 106px;
+    left: 155px;
+    top: 720px;
+
+    background: #222374;
+    border-radius: 8px;
+}
+
+footer {
+    position: absolute;
+    width: 1200px;
+    height: 262px;
+    left: 40px;
+    top: 1398px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #000000;
+}
+
+.image-email {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 533px;
+    top: 60px;
+    display: flex;
+    align-items:center;
+
+    background: url(image.png);
+}
+.image-twitler{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 533px;
+top: 100px;
+
+display: flex;
+align-items: center;
+
+background: url(image.png);
+
+}
+.Copyright{
+    
+position: absolute;
+width: 180px;
+height: 21px;
+left: 510px;
+top: 160px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: var(--color-font-header);
+}
+.company-address{
+    position: absolute;
+width: 180px;
+height: 21px;
+left: 530px;
+top: 180px;
+
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: var(--color-font-header);
+}
